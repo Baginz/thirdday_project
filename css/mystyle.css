@@ -1,0 +1,125 @@
+:root {
+    --main-blue: #00bfff;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(../img/background.png);
+}
+
+header {
+    background-color: #414040;
+    position: relative;
+    color: white;
+}
+
+main {
+    max-width: 1000px;
+    background: white;
+    clear: both;
+    margin: 0 auto;
+    padding: 15px 10px 0 10px;
+    position: relative;
+}
+
+footer {
+    background-color: rgb(39, 51, 58);
+    color: white;
+    width: 100%;
+    clear: both;
+    position: relative;
+    height: 200px;
+}
+
+div {}
+
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0 0 0;
+}
+
+.caards {}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+    max-width: 90%;
+    outline: 2px solid rgb(133, 172, 255);
+    outline-offset: -2px;
+    margin: 20px;
+}
+
+.meta {
+    display: flex;
+    flex-grow: 1;
+}
+
+.sideb {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    box-shadow: 1px 5px 5px 0px rgb(171, 176, 187);
+    padding: 20px;
+    margin: 20px 150px 5px;
+    background-color: rgb(245, 247, 251);
+    text-align: center;
+}
+
+.side-block {
+    margin: 10px auto 10px;
+    border: solid 2px rgb(200, 225, 245);
+}
+
+.button {
+    display: inline-block;
+    border: 1px solid #3e4d5d;
+    /* Рамка */
+    font-family: Open Sans, Helvetica Neue, Arial, Verdana, sans-serif;
+    padding: 15px 50px;
+    /* Поля */
+    text-decoration: none;
+    /* Убираем подчёркивание */
+    background: #3e4d5d;
+    color: white;
+    /* Цвет текста */
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.button:hover {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+    /* Тень */
+    background: #155785;
+}
+
+.sr {
+    flex-grow: 1;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.sr input {
+    width: 100%;
+    min-width: 500px;
+    border-radius: 2px;
+    border: 1px solid transparent;
+    color: #123;
+    font-size: 14px;
+    line-height: 28px;
+    padding: 1px 42px 0 38px;
+    text-overflow: ellipsis;
+}
+
+.new-font {
+    font-family: Arial, Futura, sans-serif;
+}
